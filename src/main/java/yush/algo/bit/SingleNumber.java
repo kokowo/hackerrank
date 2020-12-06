@@ -1,0 +1,15 @@
+package yush.algo.bit;
+
+/*
+ * Given an array of integers, every element appears twice except for one. Find that single one
+ */
+public class SingleNumber {
+
+	public int singleNumber(int[] A) {
+		int num = 0;
+		for (int x : A) {
+			num ^= x;
+		}
+		return num;
+	}
+}
