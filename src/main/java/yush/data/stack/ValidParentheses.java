@@ -1,7 +1,10 @@
 package yush.data.stack;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Stack;
 
 public class ValidParentheses {
@@ -23,7 +26,11 @@ public class ValidParentheses {
 			} else if (stack.isEmpty() || map.get(stack.pop()) != c) {
 				return false;
 			}
+			Integer i;
 		}
 		return stack.isEmpty();
 	}
+	
+	Queue<Integer> minHeap = new PriorityQueue<>();
+	Queue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 }
