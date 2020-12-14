@@ -1,5 +1,9 @@
 package yush.data.array;
 
+/*
+ * Equilibrium index of an array is an index such that the sum of elements at 
+ * lower indexes is equal to the sum of elements at higher indexes
+ */
 public class EquilibriumIndex {
 	int equilibrium(int arr[], int n) {
 		int sum = 0; // initialize sum of whole array
