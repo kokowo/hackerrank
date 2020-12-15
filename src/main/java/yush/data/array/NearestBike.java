@@ -1,4 +1,4 @@
-package yush.amazon;
+package yush.data.array;
 
 public class NearestBike {
 

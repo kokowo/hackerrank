@@ -1,4 +1,4 @@
-package yush.amazon;
+package yush.data.array;
 
 import java.util.HashMap;
 import java.util.Map;

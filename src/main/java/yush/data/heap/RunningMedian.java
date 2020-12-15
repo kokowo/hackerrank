@@ -1,4 +1,4 @@
-package yush.amazon;
+package yush.data.heap;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

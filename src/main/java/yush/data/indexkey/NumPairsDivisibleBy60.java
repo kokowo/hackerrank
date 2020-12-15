@@ -1,4 +1,4 @@
-package yush.amazon;
+package yush.data.indexkey;
 
 /*
  * You are given a list of songs where the ith song has a duration of time[i] seconds.

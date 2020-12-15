@@ -1,4 +1,4 @@
-package yush.amazon;
+package yush.data.tree;
 
 public class DistanceBetweenNodesBST {
 

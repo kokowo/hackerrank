@@ -1,4 +1,4 @@
-package yush.amazon;
+package yush.data.array;
 
 public class PushZeroInArray {
 	public static void main(String[] argv) {
