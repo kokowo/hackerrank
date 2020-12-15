@@ -26,7 +26,6 @@ public class ValidParentheses {
 			} else if (stack.isEmpty() || map.get(stack.pop()) != c) {
 				return false;
 			}
-			Integer i;
 		}
 		return stack.isEmpty();
 	}
