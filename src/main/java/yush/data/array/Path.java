@@ -1,7 +1,6 @@
 package yush.data.array;
 
-//Java program to find path between two
-//cell in matrix
+// Find path between two cell in matrix
 class Path {
 
 	static class Point {
@@ -14,7 +13,7 @@ class Path {
 		public int y;
 	}
 
-	public static void isPath(int matrix[][], Point start, Point end) {
+	public static void isPath(int[][] matrix, Point start, Point end) {
 		int col = matrix.length;
 		int row = matrix[0].length;
 
@@ -27,7 +26,7 @@ class Path {
 			System.out.println("NO");
 	}
 
-	public static boolean isSafe(Point p, boolean visited[][], int matrix[][]) {
+	public static boolean isSafe(Point p, boolean[][] visited, int[][] matrix) {
 		return (p.x >= 0 && p.x < matrix.length && p.y >= 0 && p.y < matrix[0].length && !visited[p.x][p.y]
 				&& matrix[p.x][p.y] == 1);
 	}
